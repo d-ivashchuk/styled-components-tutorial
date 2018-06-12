@@ -35,6 +35,7 @@ const Thumbnail = styled.img`
   padding: 5px;
   margin: 15px;
   ${border}
+  object-fit:cover
 `;
 
 class App extends Component {
@@ -60,4 +61,3 @@ export default styled(App)`
   height: 100vh;
   text-align: center;
 `;
-
